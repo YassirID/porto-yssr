@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: 1,
-    title: 'Landing Page Tendou Arisu',
-    description: 'Landing page bertema anime dengan animasi halus dan desain modern. Dibangun menggunakan HTML, CSS, dan JavaScript vanilla.',
+    title: 'MGBK Landing Page ',
+    description: 'Landing page untuk acara Musyawarah Guru Bimbingan Konseling (MGBK) tingkat nasional. Menampilkan informasi acara, jadwal, dan pendaftaran online.',
     image: null,
     category: 'Landing Page',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    tags: ['HTML', 'CSS', 'JavaScript, Vue.js'],
     github: 'https://github.com/yassir-id',
     demo: '#',
     color: '#6366f1'
@@ -23,8 +23,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Todo App Vue',
-    description: 'Aplikasi todo list interaktif dengan fitur CRUD, filter, dan local storage. Dibangun dengan Vue.js 3 Composition API.',
+    title: 'Aptiknas Landing Page',
+    description: 'Landing page untuk acara Aptiknas (Asosiasi Perguruan Tinggi Informatika dan Komputer Nasional) dengan desain modern dan responsif.',
     image: null,
     category: 'Vue Apps',
     tags: ['Vue.js', 'JavaScript', 'CSS'],
@@ -34,22 +34,22 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Weather Dashboard',
-    description: 'Dashboard cuaca real-time menggunakan OpenWeather API. Menampilkan prakiraan 5 hari dengan visualisasi data.',
+    title: 'PMB UNPAS',
+    description: 'Landing page untuk Penerimaan Mahasiswa Baru (PMB) Universitas Pasundan (UNPAS) dengan fitur pendaftaran online dan informasi lengkap tentang program studi.',
     image: null,
     category: 'JavaScript',
-    tags: ['JavaScript', 'API', 'CSS'],
+    tags: ['JavaScript', 'API', 'CSS', 'Vue.js'],
     github: 'https://github.com/yassir-id',
     demo: '#',
     color: '#f59e0b'
   },
   {
     id: 5,
-    title: 'Anime Quote Generator',
-    description: 'Generator kutipan anime random dengan efek typing dan sharing ke media sosial. Terinspirasi dari berbagai anime populer.',
+    title: 'Website Profile Company Hexagon Inc.',
+    description: 'Website profil perusahaan Hexagon Inc. yang menampilkan informasi tentang layanan, portofolio, dan kontak. Dibangun dengan Vue.js untuk pengalaman pengguna yang interaktif.',
     image: null,
     category: 'JavaScript',
-    tags: ['JavaScript', 'API', 'HTML'],
+    tags: ['JavaScript', 'API', 'HTML', 'Vue.js'],
     github: 'https://github.com/yassir-id',
     demo: '#',
     color: '#ec4899'
@@ -57,14 +57,14 @@ export const projects = [
   {
     id: 6,
     title: 'Parking System App',
-    description: 'Sistem manajemen parkir dengan dashboard owner, laporan transaksi, dan analitik. Dibangun dengan PHP MVC & modern UI.',
+    description: 'Aplikasi sistem parkir berbasis web untuk mengelola kendaraan masuk dan keluar, menghitung biaya parkir, dan menghasilkan laporan harian. Dibangun dengan Laravel dan MySQL.',
     image: null,
     category: 'Vue Apps',
-    tags: ['PHP', 'MySQL', 'JavaScript'],
+    tags: ['PHP', 'MySQL', 'JavaScript', 'Laravel'],
     github: 'https://github.com/yassir-id',
     demo: '#',
     color: '#8b5cf6'
   }
 ]
 
-export const categories = ['Semua', 'Vue Apps', 'Landing Page', 'JavaScript']
+export const categories = ['Semua', 'Vue Apps', 'Landing Page', 'Laravel', 'JavaScript', 'PHP']

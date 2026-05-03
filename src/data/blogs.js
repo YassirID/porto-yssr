@@ -96,5 +96,73 @@ Kombinasi espresso dan susu yang seimbang. Cocok untuk coding santai di pagi har
     readTime: '4 min',
     color: '#f59e0b',
     date: '2026-04-01'
-  }
+  },
+  {
+  slug: 'setup-mikrotik-untuk-home-office',
+  title: 'Setup Mikrotik Dasar untuk Home Office',
+  excerpt: 'Mengatur jaringan lokal yang stabil sangat penting untuk produktivitas. Mari belajar dasar konfigurasi RouterBoard.',
+  content: `Memiliki internet yang cepat saja tidak cukup jika pembagian bandwidth-nya berantakan. Sebagai developer, koneksi yang stabil adalah kunci.
+
+## Mengapa Mikrotik?
+
+Mikrotik menawarkan kontrol penuh atas jaringan kita, mulai dari Firewall, Bandwidth Management (Queue), hingga VPN.
+
+## Langkah Awal Konfigurasi
+- **IP Address:** Mengatur segmen IP yang berbeda untuk perangkat kerja dan umum.
+- **DHCP Server:** Memastikan semua perangkat mendapatkan IP secara otomatis.
+- **NAT Masquerade:** Agar perangkat di jaringan lokal bisa mengakses internet.
+
+## Tips Jaringan untuk Developer
+- Gunakan kabel LAN (Ethernet) daripada Wi-Fi untuk latensi yang lebih rendah saat push ke GitHub.
+- Pisahkan jaringan untuk perangkat IoT agar tidak membebani traffic utama.
+- Pelajari dasar Winbox untuk memudahkan konfigurasi visual.`,
+  category: 'Infrastructure',
+  readTime: '6 min',
+  color: '#2563eb', // Blue
+  date: '2026-04-10'
+},
+{
+  slug: 'rakit-pc-vs-laptop-untuk-coding',
+  title: 'Rakit PC vs Laptop untuk Coding di 2026',
+  excerpt: 'Mana yang lebih worth it untuk mahasiswa informatika? Mari kita bedah dari sisi performa dan harga.',
+  content: `Banyak yang bertanya, apakah lebih baik punya laptop high-end atau PC rakitan? Jawabannya tergantung pada mobilitas Anda.
+
+## Keunggulan PC Rakitan
+- **Upgradeability:** Anda bisa mengganti RAM atau GPU kapan saja.
+- **Thermal Management:** Suhu lebih terjaga saat menjalankan Docker atau kompilasi project besar.
+- **Harga per Performa:** Biasanya lebih murah untuk spesifikasi yang sama dengan laptop.
+
+## Rekomendasi Spek Minimal
+- **CPU:** Minimal 6-Core (Ryzen 5 atau Core i5).
+- **RAM:** 16GB adalah standar baru, jangan kurang dari itu.
+- **Storage:** NVMe SSD wajib untuk kecepatan booting dan buka IDE (VS Code).
+
+## Kesimpulan
+Jika Anda sering ngoding di cafe, Laptop tetap juaranya. Tapi untuk sesi coding maraton di rumah, PC rakitan memberikan kenyamanan yang tak tertandingi.`,
+  category: 'Hardware',
+  readTime: '5 min',
+  color: '#ef4444', // Red
+  date: '2026-04-15'
+},
+{
+  slug: 'migrasi-portofolio-ke-vuejs',
+  title: 'Kenapa Saya Migrasi ke Vue.js?',
+  excerpt: 'Setelah sekian lama menggunakan HTML & JS murni, akhirnya saya memutuskan pindah ke framework. Ini alasannya.',
+  content: `Membuat website dengan HTML/JS murni (Vanilla) sangat bagus untuk dasar, tapi saat website mulai kompleks, kita butuh struktur yang lebih rapi.
+
+## Masalah dengan Vanilla JS
+Semakin banyak fitur, kode JavaScript kita akan menjadi "Spaghetti Code". Sangat sulit mengelola state dan DOM secara manual.
+
+## Keunggulan Vue.js yang Saya Rasakan
+1. **Component-Based:** Navigasi, Footer, dan Project Card bisa dipisah menjadi file sendiri.
+2. **Reactivity:** Data berubah, tampilan otomatis berubah tanpa perlu \`innerHTML\`.
+3. **Ecosystem:** Penggunaan Vue Router membuat navigasi antar halaman terasa sangat cepat (SPA).
+
+## Proses Belajar
+Mulai dari memahami \`ref()\`, \`reactive()\`, hingga bagaimana cara passing data antar komponen menggunakan \`props\`.`,
+  category: 'Programming',
+  readTime: '7 min',
+  color: '#42b883', // Vue Green
+  date: '2026-04-20'
+},
 ]

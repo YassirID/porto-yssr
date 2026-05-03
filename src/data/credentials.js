@@ -39,38 +39,9 @@ export const credentials = [
     verifyUrl: 'https://www.credly.com/',
     color: '#1ba0d8'
   },
+  
   {
     id: 5,
-    title: 'CCNA: Switching, Routing & Wireless',
-    issuer: 'Cisco Networking Academy',
-    date: '2025',
-    category: 'Networking',
-    description: 'VLAN, inter-VLAN routing, STP, DHCP, WLAN, dan konfigurasi jaringan enterprise.',
-    verifyUrl: 'https://www.credly.com/',
-    color: '#1ba0d8'
-  },
-  {
-    id: 6,
-    title: 'Google IT Support Professional',
-    issuer: 'Google / Coursera',
-    date: '2025',
-    category: 'IT Support',
-    description: 'Troubleshooting, networking, sistem operasi, administrasi sistem, dan keamanan IT.',
-    verifyUrl: 'https://www.coursera.org/account/accomplishments/',
-    color: '#34a853'
-  },
-  {
-    id: 7,
-    title: 'MikroTik Certified Network Associate (MTCNA)',
-    issuer: 'MikroTik',
-    date: '2025',
-    category: 'Networking',
-    description: 'Konfigurasi MikroTik RouterOS, firewall, QoS, wireless, dan manajemen bandwidth.',
-    verifyUrl: 'https://mikrotik.com/training/certificates/',
-    color: '#293239'
-  },
-  {
-    id: 8,
     title: 'Workshop UI/UX Design Fundamentals',
     issuer: 'GDG Bandung',
     date: '2024',

@@ -41,13 +41,13 @@ function switchTab(tab) {
       <div class="relative overflow-hidden">
         <!-- Software icons -->
         <div v-show="activeTab === 'Software'"
-          class="flex flex-wrap justify-center gap-8 max-w-[700px] mx-auto transition-all duration-400 ease-out"
+          class="flex flex-wrap justify-center pt-6 gap-8 max-w-[700px] mx-auto transition-all duration-400 ease-out"
           :class="isTransitioning ? 'opacity-0 translate-y-4 scale-95' : 'opacity-100 translate-y-0 scale-100'">
           <TechIcon v-for="tech in techStack" :key="tech.name" :name="tech.name" :icon="tech.icon" :color="tech.color"/>
         </div>
         <!-- Hardware gear -->
         <div v-show="activeTab === 'Hardware & Gear'"
-          class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-[700px] mx-auto transition-all duration-400 ease-out"
+          class="grid grid-cols-2 md:grid-cols-4 pb-5 pt-4 gap-4 max-w-[700px] mx-auto transition-all duration-400 ease-out"
           :class="isTransitioning ? 'opacity-0 translate-y-4 scale-95' : 'opacity-100 translate-y-0 scale-100'">
           <div v-for="g in gear" :key="g.name" class="p-5 rounded-xl bg-surface border-[3px] border-manga-border text-center transition-all duration-300 hover:border-accent hover:-translate-y-1 group" style="box-shadow: 3px 3px 0px var(--color-manga-border);" @mouseenter="$el.style.boxShadow='5px 5px 0px var(--color-accent)'" @mouseleave="$el.style.boxShadow='3px 3px 0px var(--color-manga-border)'">
             <span class="block mb-2"><svg class="w-8 h-8 mx-auto text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path :d="g.svgPath"/></svg></span>

@@ -8,7 +8,7 @@ const featured = credentials.slice(0, 3)
       <div class="text-center mb-12 scroll-hidden">
         <span class="font-mono text-xs font-medium tracking-widest uppercase text-accent">// featured</span>
         <h2 class="font-display font-bold mt-2 tracking-tight text-text-primary" style="font-size: clamp(1.8rem, 4vw, 2.8rem);">Sertifikasi & IT Skills</h2>
-        <p class="mt-3 text-base text-text-secondary max-w-lg mx-auto">Beberapa kredensial terbaru dan keahlian IT yang dimiliki.</p>
+        <p class="mt-3 text-base leading-relaxed text-text-secondary  ">Beberapa kredensial terbaru dan keahlian IT yang dimiliki.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10 stagger-children">
         <div v-for="cert in featured" :key="cert.id" class="p-5 rounded-xl bg-surface border-[3px] border-manga-border transition-all duration-300 hover:-translate-y-1 hover:border-accent" style="box-shadow: 4px 4px 0px var(--color-manga-border);" @mouseenter="$el.style.boxShadow='6px 6px 0px var(--color-accent)'" @mouseleave="$el.style.boxShadow='4px 4px 0px var(--color-manga-border)'">
